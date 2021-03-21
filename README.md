@@ -36,8 +36,8 @@ I kept researching and compact compact version of it. (https://developer.mozilla
 
 ### References: 
 
-    1. https://medium.com/hackernoon/implementing-a-websocket-server-with-node-js-d9b78ec5ffa8
-    2. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+    1. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+    2. https://medium.com/hackernoon/implementing-a-websocket-server-with-node-js-d9b78ec5ffa8
 
     3. https://nodejs.dev/learn
     4. https://wanago.io/     <- for typescript and nodejs tutorials.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Retro Chat</title>
+    <script type = "text/javascript">
+        var socket = new WebSocket("ws://localhost:8080");
+            socket.onmessage = function (json) {
+
+                console.log(json.data)
+                var obj = JSON.parse(json.data)
+                var msg_p = document.createElement("p");   // Create a <button> element
+                msg_p.innerHTML = 
+                `====================================================================== <br>
+                    <b>${obj.name}</b>: ${obj.message}<br>
+                 ====================================================================== <br>
+                `;                  
+                document.body.appendChild(msg_p);   
+            };
+
+        function broadcast_msg(fname, msg){
+            socket.send(JSON.stringify({ name: document.getElementById("fname").value, message: document.getElementById("msg").value }));
+        }
+    </script>
+    <style>
+        .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: cyan;
+           color: white;
+           text-align: center;
+        }
+        </style>
+</head>
+
+<html>
+    <body style="background-color:white;">
+    <h1>Retro Chat</h1>
+
+
+    </body>
+    <footer class="footer">
+        <input type="text" id = "fname" name = "fname"></input>
+        <input type="text" id = "msg" name = "msg"></input>
+        <button onclick="broadcast_msg(fname, msg)">Send</button>
+    </footer>
+</html> 
