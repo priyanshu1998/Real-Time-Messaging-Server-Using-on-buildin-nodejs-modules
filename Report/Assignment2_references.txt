@@ -1,0 +1,10 @@
+References.
+
+1. https://medium.com/hackernoon/implementing-a-websocket-server-with-node-js-d9b78ec5ffa8
+2. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+
+3. https://nodejs.dev/learn
+4. https://wanago.io/
+5. https://basarat.gitbook.io/typescript/nodejs
+
+6. Presentation given by Rohit, made high level abstraction a lot clearer. So I was able to understand the deeper details with ease.(In simple words saved a lot of time.)
