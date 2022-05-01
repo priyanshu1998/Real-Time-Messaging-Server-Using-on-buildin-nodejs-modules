@@ -5,12 +5,8 @@ An implementation from scratch using only following built-in modules (buffer, ne
 ####### Language: Typescript
 
 ### Motivation:
-This was developed as a part of 4th Year 1st semester assigment and we given freedom to develop using any nodejs module.
+This was developed as a part of 4th Year 1st semester assigment and we were given the freedom to develop using any nodejs module.
 I deciced to develop without any 3rd Party module.
-
-In order to understand websocket protocol. I deciced to read rfc6455 (https://tools.ietf.org/html/rfc6455).
-I kept researching and compact compact version of it. (https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
-
 
 
 ### Problem Statement:
